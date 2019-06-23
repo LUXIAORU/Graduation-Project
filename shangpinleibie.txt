@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[shangpinleibie] (
+	[ID] [int] IDENTITY (1, 1) NOT NULL ,[leibie] [varchar] (50) COLLATE Chinese_PRC_CI_AS NULL ,[tedian] [varchar] (300) COLLATE Chinese_PRC_CI_AS NULL ,[shuoming] [varchar] (300) COLLATE Chinese_PRC_CI_AS NULL  ,[addtime] [datetime] DEFAULT (getdate()) 
+) ON [PRIMARY] 
+GO
+
+insert into shangpinleibie(leibie,tedian,shuoming) values('Q类','','ok');insert into shangpinleibie(leibie,tedian,shuoming) values('S类','','没问题');insert into shangpinleibie(leibie,tedian,shuoming) values('Z类','','abc');insert into shangpinleibie(leibie,tedian,shuoming) values('C类','','ok');insert into shangpinleibie(leibie,tedian,shuoming) values('K类','','无');
+
+
+
